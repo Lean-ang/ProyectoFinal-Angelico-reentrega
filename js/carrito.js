@@ -102,7 +102,6 @@ class Carrito {
         productosLocal = this.obtenerProductosLocalStorage();
 
         productosLocal.forEach(function (producto) {
-            //Construir el template
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td>
